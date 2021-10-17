@@ -1,0 +1,11 @@
+services:
+  redis.client:
+    class: Predis\Client
+    arguments:
+      -
+        scheme: tcp
+        host: 127.0.0.1
+        port: 6379
+        password:
+  component.logic:
+    class: app\api\Logic

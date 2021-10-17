@@ -1,0 +1,16 @@
+{
+  "name": "laravel/admin",
+  "type": "project",
+  "description": "admin-area",
+  "minimum-stability": "dev",
+  "require": {
+    "symfony/config": "v5.3.4",
+    "symfony/dependency-injection": "v5.3.7",
+    "symfony/yaml": "v5.3.6",
+    "predis/predis": "v1.1.7"
+  },
+  "autoload": {
+    "psr-4": {
+    }
+  }
+}
